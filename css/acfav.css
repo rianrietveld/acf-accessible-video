@@ -1,0 +1,95 @@
+.acfav-alt-video {
+    clear: left;
+    margin: 0 0 50px 0;
+    padding-bottom: 0
+}
+
+.acfav-alt-video ul {
+    display: block;
+    list-style: none;
+    overflow: hidden
+}
+
+.acfav-alt-video ul li {
+    margin: 0;
+    padding: .2em 0 .2em 15px;
+    border-bottom: #e6e6e6 solid 1px;
+}
+
+.acfav-alt-video button {
+    cursor: pointer;
+    margin: 0;
+    padding: .2em 0 .2em 15px;
+    border: 0;
+    font-family: 'Dosis', Georgia, "Times New Roman", Times, serif;
+    border-top: #fff 2px solid;
+    line-height: 1.25;
+    color: #454545;
+    text-align: left;
+    font-size: 1.470em;
+    background-color: #e6e6e6;
+    width: 100%;
+}
+
+.acfav-alt-video button:hover,
+.acfav-alt-video button:focus {
+    text-decoration: underline;
+}
+
+.acfav-alt-video ul li.toggle div {
+    padding: 1em 20px
+}
+
+.acfav-alt-video a {
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+
+.acfav-alt-video span.meta {
+    display: block;
+    font-weight: normal;
+}
+
+
+.acfav-alt-video a:hover,
+.acfav-alt-video a:focus {
+    text-decoration: underline;
+}
+
+.acfav-alt-video img {
+    display: inline;
+    margin: 0 3px;
+    height: 1.3em;
+    vertical-align: top
+}
+
+.acfav-alt-video div.toggle {
+    margin: 0;
+    padding: .5em 0 .5em 15px;
+    border-bottom: #e6e6e6 solid 1px;
+}
+
+.acfav-alt-video ul li.toggle.close ul, .acfav-alt-video ul li.toggle.close div {
+    display: none
+}
+
+.acfav-alt-video ul li.toggle.close ul.current, .acfav-alt-video ul li.toggle.close div.current {
+    display: none
+}
+
+.acfav-alt-video ul li.toggle.open ul, .acfav-alt-video ul li.toggle.open div {
+    display: block;
+}
+
+.acfav-alt-video ul li.toggle.open ul.current, .acfav-alt-video ul li.toggle.open div.current {
+    display: block
+}
+
+
+.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label {
+    color: #fff;
+}
+
+

@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Accessible Video's using ACF Pro\n"
+"POT-Creation-Date: 2015-10-12 11:59+0200\n"
+"PO-Revision-Date: 2015-10-12 12:00+0200\n"
+"Language-Team: Rian Rietveld <rian@rrwd.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: acf-accessible-video.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Rian Rietveld <rian@rrwd.nl>\n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/front-end.php:90
+msgid "Video"
+msgstr "Video"
+
+#: lib/front-end.php:103
+msgid "Audio"
+msgstr "Audio"
+
+#: lib/front-end.php:115
+msgid "Caption"
+msgstr "Caption"
+
+#: lib/front-end.php:134
+#, php-format
+msgid "Download %s in other file formats"
+msgstr "Download %s in andere bestandsformaten"
+
+#: lib/front-end.php:141
+#, php-format
+msgid "Full text of %s "
+msgstr "Uitgeschreven tekst van %s "
+
+#: lib/front-end.php:187
+msgid "Video for Windows Media Player"
+msgstr "Video voor Windows Media Player"
+
+#: lib/front-end.php:191 lib/front-end.php:195
+msgid "Video for Apple Quicktime Player"
+msgstr "Video voor Apple Quicktime Player"
+
+#: lib/front-end.php:199 lib/front-end.php:203
+msgid "Audio trac"
+msgstr "Audio trac"
+
+#: lib/front-end.php:207
+msgid "Subtitles"
+msgstr "Ondertiteling"
+
+#: lib/front-end.php:211
+msgid " file"
+msgstr " bestand"
+
+#. Plugin Name of the plugin/theme
+msgid "Accessible Video's using ACF Pro"
+msgstr "Toegankelijk Video’s met behulp van ACF Pro"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://rianrietveld.com"
+msgstr "http://rianrietveld.com"
+
+#. Description of the plugin/theme
+msgid "Add accessible video's in your content, using Advanced Custom Fields Pro"
+msgstr "Voeg toegankelijke video’s in je content, met behulp van Advanced Custom Fields Pro"
+
+#. Author of the plugin/theme
+msgid "Rian Rietveld"
+msgstr "Rian Rietveld"
