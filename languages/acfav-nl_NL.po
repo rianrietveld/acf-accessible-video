@@ -1,64 +1,125 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: Accessible Video's using ACF Pro\n"
-"POT-Creation-Date: 2015-10-12 11:59+0200\n"
-"PO-Revision-Date: 2015-10-12 12:00+0200\n"
+"POT-Creation-Date: 2015-10-13 15:11+0200\n"
+"PO-Revision-Date: 2015-10-13 15:12+0200\n"
+"Last-Translator: Rian Rietveld <rian@rrwd.nl>\n"
 "Language-Team: Rian Rietveld <rian@rrwd.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: acf-accessible-video.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: Rian Rietveld <rian@rrwd.nl>\n"
-"Language: nl_NL\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: lib/front-end.php:90
+#: acf-accessible-video.php:111
+#, php-format
+msgid ""
+"You need the plugin %1$s, version 5 or greater for this plugin to make any "
+"sense."
+msgstr ""
+"Je hebt de plugin %1$s, versie 5 of hoger om deze plugin goed te laten "
+"werken."
+
+#: lib/front-end.php:88
 msgid "Video"
 msgstr "Video"
 
-#: lib/front-end.php:103
+#: lib/front-end.php:102
 msgid "Audio"
 msgstr "Audio"
 
-#: lib/front-end.php:115
+#: lib/front-end.php:117
 msgid "Caption"
 msgstr "Caption"
 
-#: lib/front-end.php:134
+#: lib/front-end.php:138
 #, php-format
-msgid "Download %s in other file formats"
-msgstr "Download %s in andere bestandsformaten"
+msgid "Download %s"
+msgstr "Download %s"
 
-#: lib/front-end.php:141
+#: lib/front-end.php:145
 #, php-format
 msgid "Full text of %s "
 msgstr "Uitgeschreven tekst van %s "
 
-#: lib/front-end.php:187
+#: lib/front-end.php:191
 msgid "Video for Windows Media Player"
 msgstr "Video voor Windows Media Player"
 
-#: lib/front-end.php:191 lib/front-end.php:195
+#: lib/front-end.php:195 lib/front-end.php:199
 msgid "Video for Apple Quicktime Player"
 msgstr "Video voor Apple Quicktime Player"
 
-#: lib/front-end.php:199 lib/front-end.php:203
+#: lib/front-end.php:203 lib/front-end.php:207
 msgid "Audio trac"
 msgstr "Audio trac"
 
-#: lib/front-end.php:207
+#: lib/front-end.php:211 lib/group.php:146
 msgid "Subtitles"
 msgstr "Ondertiteling"
 
-#: lib/front-end.php:211
+#: lib/front-end.php:215
 msgid " file"
 msgstr " bestand"
+
+#: lib/group.php:68
+msgid "Alternative video files"
+msgstr "Alternatieve videobestanden"
+
+#: lib/group.php:82
+msgid "Add another video file"
+msgstr "Voeg nog een videobestand toe"
+
+#: lib/group.php:86
+msgid "Alternative video file"
+msgstr "Alternatief videobestand"
+
+#: lib/group.php:89
+msgid ""
+"For example .wmv or .mov. <br />Note: if the files are to big to upload "
+"here, please upload them via FTP and assign them to the media using a plugin "
+"like Media from FTP"
+msgstr ""
+"Bijvoorbeeld .wmv of .mov.<br>Opmerking: als de bestanden te groot zijn om "
+"hier te uploaden kun je ze uploaden via FTP en daarna toewijzen aan de media "
+"met behulp van een plugin zoals Media van FTP"
+
+#: lib/group.php:107
+msgid "Alternative audio files"
+msgstr "Alternatieve audiobestanden"
+
+#: lib/group.php:121
+msgid "Add another audio file"
+msgstr "Voeg nog een audiobestand toe"
+
+#: lib/group.php:125
+msgid "Alternative audio file"
+msgstr "Alternatief audiobestand"
+
+#: lib/group.php:128
+msgid "For example .mp3 or .wav"
+msgstr "Bijvoorbeeld .mp3 of .wav"
+
+#: lib/group.php:160
+msgid "Add another subtitle file"
+msgstr "Voeg nog een ondertitelingsbestand toe"
+
+#: lib/group.php:167
+msgid "Use a .srt or .vvt file"
+msgstr "Gebruik een .srt of .vvt-bestand"
+
+#: lib/group.php:183
+msgid "Language subtitles"
+msgstr "Taal ondertiteling"
 
 #. Plugin Name of the plugin/theme
 msgid "Accessible Video's using ACF Pro"
@@ -70,9 +131,15 @@ msgid "http://rianrietveld.com"
 msgstr "http://rianrietveld.com"
 
 #. Description of the plugin/theme
-msgid "Add accessible video's in your content, using Advanced Custom Fields Pro"
-msgstr "Voeg toegankelijke video’s in je content, met behulp van Advanced Custom Fields Pro"
+msgid ""
+"Add accessible video's in your content, using Advanced Custom Fields Pro"
+msgstr ""
+"Voeg toegankelijke video’s in je content, met behulp van Advanced Custom "
+"Fields Pro"
 
 #. Author of the plugin/theme
 msgid "Rian Rietveld"
 msgstr "Rian Rietveld"
+
+#~ msgid "Download %s in other file formats"
+#~ msgstr "Download %s in andere bestandsformaten"

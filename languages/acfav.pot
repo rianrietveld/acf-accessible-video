@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Accessible Video's using ACF Pro\n"
-"POT-Creation-Date: 2015-10-12 11:59+0200\n"
+"POT-Creation-Date: 2015-10-13 15:10+0200\n"
 "PO-Revision-Date: 2015-10-12 11:59+0200\n"
 "Last-Translator: Rian Rietveld <rian@rrwd.nl>\n"
 "Language-Team: Rian Rietveld <rian@rrwd.nl>\n"
@@ -15,51 +15,105 @@ msgstr ""
 "X-Poedit-WPHeader: acf-accessible-video.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: lib/front-end.php:90
+#: acf-accessible-video.php:111
+#, php-format
+msgid ""
+"You need the plugin %1$s, version 5 or greater for this plugin to make any "
+"sense."
+msgstr ""
+
+#: lib/front-end.php:88
 msgid "Video"
 msgstr ""
 
-#: lib/front-end.php:103
+#: lib/front-end.php:102
 msgid "Audio"
 msgstr ""
 
-#: lib/front-end.php:115
+#: lib/front-end.php:117
 msgid "Caption"
 msgstr ""
 
-#: lib/front-end.php:134
+#: lib/front-end.php:138
 #, php-format
-msgid "Download %s in other file formats"
+msgid "Download %s"
 msgstr ""
 
-#: lib/front-end.php:141
+#: lib/front-end.php:145
 #, php-format
 msgid "Full text of %s "
 msgstr ""
 
-#: lib/front-end.php:187
+#: lib/front-end.php:191
 msgid "Video for Windows Media Player"
 msgstr ""
 
-#: lib/front-end.php:191 lib/front-end.php:195
+#: lib/front-end.php:195 lib/front-end.php:199
 msgid "Video for Apple Quicktime Player"
 msgstr ""
 
-#: lib/front-end.php:199 lib/front-end.php:203
+#: lib/front-end.php:203 lib/front-end.php:207
 msgid "Audio trac"
 msgstr ""
 
-#: lib/front-end.php:207
+#: lib/front-end.php:211 lib/group.php:146
 msgid "Subtitles"
 msgstr ""
 
-#: lib/front-end.php:211
+#: lib/front-end.php:215
 msgid " file"
+msgstr ""
+
+#: lib/group.php:68
+msgid "Alternative video files"
+msgstr ""
+
+#: lib/group.php:82
+msgid "Add another video file"
+msgstr ""
+
+#: lib/group.php:86
+msgid "Alternative video file"
+msgstr ""
+
+#: lib/group.php:89
+msgid ""
+"For example .wmv or .mov. <br />Note: if the files are to big to upload "
+"here, please upload them via FTP and assign them to the media using a "
+"plugin like Media from FTP"
+msgstr ""
+
+#: lib/group.php:107
+msgid "Alternative audio files"
+msgstr ""
+
+#: lib/group.php:121
+msgid "Add another audio file"
+msgstr ""
+
+#: lib/group.php:125
+msgid "Alternative audio file"
+msgstr ""
+
+#: lib/group.php:128
+msgid "For example .mp3 or .wav"
+msgstr ""
+
+#: lib/group.php:160
+msgid "Add another subtitle file"
+msgstr ""
+
+#: lib/group.php:167
+msgid "Use a .srt or .vvt file"
+msgstr ""
+
+#: lib/group.php:183
+msgid "Language subtitles"
 msgstr ""
 
 #. Plugin Name of the plugin/theme

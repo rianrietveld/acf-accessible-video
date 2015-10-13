@@ -50,23 +50,27 @@ if ( ! defined( 'ACFAV_PLUGIN_PATH' ) ){
 /**
  * The text domain for the plugin
  *
- * @since 1.0.0
+ * @since 0.1
  */
 define( 'ACFAV_DOMAIN' , 'acfav' );
 
 /**
  * Load the text domain for translation of the plugin
  *
- * @since 1.0.0
+ * @since 0.1
  */
 add_action( 'plugins_loaded', 'acfav_load_textdomain' );
 function acfav_load_textdomain() {
 	load_plugin_textdomain( 'acfav', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
+register_activation_hook( __FILE__, 'acfav_activation_check' );
 
 require_once( ACFAV_PLUGIN_PATH . 'lib/group.php' );
-require_once( ACFAV_PLUGIN_PATH . 'lib/front-end.php' );
+
+if ( ! is_admin() ) {
+	require_once( ACFAV_PLUGIN_PATH . 'lib/front-end.php' );
+}
 
 
 /**
@@ -84,7 +88,7 @@ function acfav_css() {
 /**
  * Adds js
  *
- * @since 1.0
+ * @since 0.1
  */
 add_action( 'wp_enqueue_scripts', 'acfav_js' );
 function acfav_js() {
@@ -94,5 +98,18 @@ function acfav_js() {
 }
 
 
+/**
+ * Checks for activated Advanced Custom fields version 5 or higher
+ *
+ * @author Rian Rietveld
+ * @since 0.1
+ */
+function acfav_activation_check() {
 
+	if ( ! is_plugin_active( 'advanced-custom-fields-pro/acf.php' ) ) {
+
+		wp_die( sprintf( __( 'You need the plugin %1$s, version 5 or greater for this plugin to make any sense.', ACFAV_DOMAIN ), '<a href="http://www.advancedcustomfields.com/pro">Advanced Custom Fields Pro</a>') );
+	}
+
+}
 
