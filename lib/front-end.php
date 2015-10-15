@@ -135,14 +135,14 @@ function acfav_wp_video_shortcode( $html, $atts, $video, $post_id, $library ) {
             $html .= '<div class="acfav-alt-video block">';
 
             if ( $alt_files != "" ) {
-                $html .= '<button class="toggle-link">' . sprintf( __( 'Download %s', ACFAV_DOMAIN ), $video_name ) . '</button>';
+                $html .= '<button class="acfav-toggle-link">' . sprintf( __( 'Download %s', ACFAV_DOMAIN ), $video_name ) . '</button>';
                 $html .= '<ul class="toggle">';
                 $html .= $alt_files;
                 $html .= '</ul>';
             }
 
             if ( $alt_descr != "" ) {
-                $html .= '<button class="toggle-link">' . sprintf(__( 'Full text of %s ', ACFAV_DOMAIN ), $video_name )  . '</button>';
+                $html .= '<button class="acfav-toggle-link">' . sprintf(__( 'Full text of %s ', ACFAV_DOMAIN ), $video_name )  . '</button>';
                 $html .= '<div class="toggle">';
                 $html .= $alt_descr;
                 $html .= '</div>';

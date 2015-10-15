@@ -4,8 +4,8 @@ FAQ open/close slider, based on http://www.designonslaught.com/a-simple-jquery-f
 
 (function($) {
 
-	var element_to_toggle = '.toggle';
-	var element_to_click  = '.toggle-link';
+	var element_to_toggle = '.acfav-toggle';
+	var element_to_click  = '.acfav-toggle-link';
 
     $(element_to_toggle).hide();
     $(element_to_click).click(function () {
