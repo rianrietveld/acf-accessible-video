@@ -5,6 +5,7 @@ add_action( 'wp_loaded',  'acfav_init' );
 
 function acfav_init() {
 
+
 	add_filter( 'acf/location/rule_values/attachment', 'acfav_acf_location_rules_values_attachment' );
 	function acfav_acf_location_rules_values_attachment( $choices ) {
 
@@ -12,10 +13,16 @@ function acfav_init() {
 	    return $choices;
 	}
 
+
 	add_filter( 'acf/location/rule_match/attachment', 'acfav_acf_location_rules_match_attachment', 10, 3 );
 	function acfav_acf_location_rules_match_attachment( $match, $rule, $options ) {
 
 		// vars
+
+		if ( empty( $options ) ) {
+			 return false;
+		}
+
 	    $attachment = $options['attachment'];
 
 	    // validate

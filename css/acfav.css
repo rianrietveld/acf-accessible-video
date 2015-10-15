@@ -21,7 +21,6 @@
     margin: 0;
     padding: .2em 0 .2em 15px;
     border: 0;
-    font-family: 'Dosis', Georgia, "Times New Roman", Times, serif;
     border-top: #fff 2px solid;
     line-height: 1.25;
     color: #454545;
@@ -65,25 +64,25 @@
     vertical-align: top
 }
 
-.acfav-alt-video div.toggle {
+.acfav-alt-video div.acfav-toggle {
     margin: 0;
     padding: .5em 0 .5em 15px;
     border-bottom: #e6e6e6 solid 1px;
 }
 
-.acfav-alt-video ul li.toggle.close ul, .acfav-alt-video ul li.toggle.close div {
+.acfav-alt-video ul li.acfav-toggle.close ul, .acfav-alt-video ul li.acfav-toggle.close div {
     display: none
 }
 
-.acfav-alt-video ul li.toggle.close ul.current, .acfav-alt-video ul li.toggle.close div.current {
+.acfav-alt-video ul li.acfav-toggle.close ul.current, .acfav-alt-video ul li.acfav-toggle.close div.current {
     display: none
 }
 
-.acfav-alt-video ul li.toggle.open ul, .acfav-alt-video ul li.toggle.open div {
+.acfav-alt-video ul li.acfav-toggle.open ul, .acfav-alt-video ul li.acfav-toggle.open div {
     display: block;
 }
 
-.acfav-alt-video ul li.toggle.open ul.current, .acfav-alt-video ul li.toggle.open div.current {
+.acfav-alt-video ul li.acfav-toggle.open ul.current, .acfav-alt-video ul li.acfav-toggle.open div.current {
     display: block
 }
 

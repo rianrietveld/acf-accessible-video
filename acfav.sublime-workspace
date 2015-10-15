@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
 				"bac",
 				"background-repeat"
 			],
@@ -18,10 +26,6 @@
 			[
 				"func",
 				"function"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"text",
@@ -232,10 +236,6 @@
 				"meta_value"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"print",
 				"printf"
 			],
@@ -407,7 +407,7 @@
 			"file": "acf-accessible-video.php",
 			"settings":
 			{
-				"buffer_size": 2048,
+				"buffer_size": 2842,
 				"line_ending": "Unix"
 			}
 		},
@@ -415,7 +415,15 @@
 			"file": "lib/front-end.php",
 			"settings":
 			{
-				"buffer_size": 4647,
+				"buffer_size": 5712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "languages/acfav-nl_NL.po",
+			"settings":
+			{
+				"buffer_size": 3876,
 				"line_ending": "Unix"
 			}
 		},
@@ -423,7 +431,23 @@
 			"file": "lib/group.php",
 			"settings":
 			{
-				"buffer_size": 4803,
+				"buffer_size": 7326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/acfav.css",
+			"settings":
+			{
+				"buffer_size": 1819,
 				"line_ending": "Unix"
 			}
 		}
@@ -482,6 +506,7 @@
 	],
 	"file_history":
 	[
+		"/Users/rianrietveld/Documents/Websites/www.iacobien.dev/wp/wp-content/plugins/acf-accessible-video/languages/acfav.pot",
 		"/Users/rianrietveld/Documents/Websites/www.iacobien.dev/wp/wp-content/plugins/acf-accessible-video/lib/admin.php",
 		"/Users/rianrietveld/Documents/Websites/www.iacobien.dev/wp/wp-content/plugins/acf-accessible-video/lib/acfav_videos.php",
 		"/Users/rianrietveld/Documents/Websites/www.iacobien.dev/wp/wp-content/plugins/acf-accessible-video/lib/init.php",
@@ -608,8 +633,7 @@
 		"/Users/rianrietveld/Documents/HTML/buschmancunsultancy/index.php",
 		"/Users/rianrietveld/Desktop/iacobien.nl_manual_full_2015-04-27_a6d4d41a870200e9a918755a7eb4375c/index.php",
 		"/Users/rianrietveld/Documents/HTML/modemaken/wp-content/themes/modevakschool/home.php",
-		"/Users/rianrietveld/Documents/Websites/www.wordpress.dev/genesis-test/wp-content/themes/genesis-sample/functions.php",
-		"/Users/rianrietveld/Documents/Websites/www.wordpress.dev/genesis-test/wp-content/plugins/screen-reader-text-theme-support/screen-reader-text-theme-support.php"
+		"/Users/rianrietveld/Documents/Websites/www.wordpress.dev/genesis-test/wp-content/themes/genesis-sample/functions.php"
 	],
 	"find":
 	{
@@ -628,6 +652,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"acfav_get_image_id",
 			"user",
 			"kut",
 			"gameacc",
@@ -754,8 +779,7 @@
 			"oogv_my_agenda",
 			"Main navigation",
 			"log",
-			"current",
-			"speak"
+			"current"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -847,7 +871,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -856,15 +880,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2048,
+						"buffer_size": 2842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								194,
-								194
+								2825,
+								2825
 							]
 						],
 						"settings":
@@ -872,10 +896,10 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 637.0,
+						"translation.y": 1011.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -884,45 +908,73 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4647,
+						"buffer_size": 5712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4145,
-								4145
+								7,
+								7
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1920.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "languages/acfav-nl_NL.po",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2351,
+								2365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1130.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "lib/group.php",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4803,
+						"buffer_size": 7326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								925,
-								960
+								7,
+								7
 							]
 						],
 						"settings":
@@ -934,7 +986,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "readme.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/acfav.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

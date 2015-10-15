@@ -98,7 +98,7 @@ function acfav_wp_video_shortcode( $html, $atts, $video, $post_id, $library ) {
 
             $alt_audio = get_sub_field( 'acfav_alt_audio' );
 
-            if ( ! empty ( $alt_video ) ) {
+            if ( ! empty ( $alt_audio ) ) {
               $alt_files .= acfav_list_item( $alt_audio['ID'], __( 'Audio', ACFAV_DOMAIN ) );
             }
 
@@ -136,14 +136,14 @@ function acfav_wp_video_shortcode( $html, $atts, $video, $post_id, $library ) {
 
             if ( $alt_files != "" ) {
                 $html .= '<button class="acfav-toggle-link">' . sprintf( __( 'Download %s', ACFAV_DOMAIN ), $video_name ) . '</button>';
-                $html .= '<ul class="toggle">';
+                $html .= '<ul class="acfav-toggle">';
                 $html .= $alt_files;
                 $html .= '</ul>';
             }
 
             if ( $alt_descr != "" ) {
                 $html .= '<button class="acfav-toggle-link">' . sprintf(__( 'Full text of %s ', ACFAV_DOMAIN ), $video_name )  . '</button>';
-                $html .= '<div class="toggle">';
+                $html .= '<div class="acfav-toggle">';
                 $html .= $alt_descr;
                 $html .= '</div>';
             }
