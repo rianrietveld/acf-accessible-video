@@ -4,7 +4,7 @@ Donate link: https://www.paypal.me/rianrietveld
 Tags: accessible video, a11y, accessibility, wcag
 Requires at least: 4.3
 Tested up to: 4.3
-Stable tag: 0.1
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,18 @@ Documentation and a manual can be found on [plugins on rianrietveld.com]http://r
 
 
 == Changelog ==
+
+= 0.3 =
+
+Release Date: October 15, 2015
+
+bug fixes
+
+= 0.2 =
+
+Release Date: October 15, 2015
+
+bug fixes
 
 = 0.1 =
 

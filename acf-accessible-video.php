@@ -3,7 +3,7 @@
 Plugin Name: Accessible Video's using ACF Pro
 Plugin URI:  http://rianrietveld.com
 Description: Add accessible video's in your content, using Advanced Custom Fields Pro
-Version:     0.1
+Version:     0.3
 Author:      Rian Rietveld
 Author URI:  http://rianrietveld.com
 License:     GPL2
@@ -29,7 +29,7 @@ GNU General Public License for more details.
  * @since 0.1
  */
 
-define( 'ACFAV_VERSION','0.1' );
+define( 'ACFAV_VERSION','0.3' );
 
 if ( ! defined( 'ACFAV_BASE_FILE' ) ) {
     define( 'ACFAV_BASE_FILE', __FILE__ );
